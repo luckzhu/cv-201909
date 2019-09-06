@@ -40,7 +40,7 @@ export default {};
 
 <style lang="scss">
 .header-wrapper {
-  padding: 2vw;
+  padding: 2vw 2.5vw;
   > h1 {
     font-size: 3vw;
     color: #007dc5;
@@ -54,7 +54,7 @@ export default {};
     > p {
       font-size: 1vw;
       margin-top: 0.3vw;
-      >i{
+      > i {
         font-size: 1.4vw;
         font-weight: 500;
         color: #009bdf;

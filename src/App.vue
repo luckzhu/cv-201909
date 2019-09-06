@@ -3,6 +3,8 @@
     <sidebar id="siderbar"></sidebar>
     <div id="main">
       <mainHeader></mainHeader>
+      <education></education>
+      <project class="project"></project>
     </div>
   </div>
 </template>
@@ -10,12 +12,15 @@
 <script>
 import sidebar from "./components/sidebar.vue";
 import mainHeader from "./components/main-header.vue";
-
+import education from "./components/education.vue";
+import project from "./components/project.vue";
 export default {
   name: "app",
   components: {
     sidebar,
-    mainHeader
+    mainHeader,
+    education,
+    project
   }
 };
 </script>
@@ -27,12 +32,15 @@ export default {
   width: 70%;
   > #siderbar {
     width: 24vw;
-    border: 1px solid red;
+
     background: #e6e7e8;
   }
   > #main {
     width: 76vw;
-    border: 1px solid green;
+    box-shadow: 0 0 0 1px rgb(225, 225, 225);
+    .project {
+      margin-top: 2vw;
+    }
   }
 }
 </style>
