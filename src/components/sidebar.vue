@@ -95,7 +95,6 @@ $deepbar: #b7b8b9;
 #side-bar {
   display: flex;
   flex-direction: column;
-  width: 31vw;
 }
 
 .information-title {

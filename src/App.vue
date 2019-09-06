@@ -24,15 +24,14 @@ export default {
 #app {
   display: flex;
   margin: 0 auto;
-  width: 60%;
-  padding: 2vw;
+  width: 70%;
   > #siderbar {
-    width: 31vw;
+    width: 24vw;
     border: 1px solid red;
     background: #e6e7e8;
   }
   > #main {
-    width: 67vw;
+    width: 76vw;
     border: 1px solid green;
   }
 }
