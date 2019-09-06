@@ -30,9 +30,18 @@ export default {
 </script>
 
 <style lang="scss">
+body{
+  width: 80%;
+  margin: 0 auto;
+  background: #e6e7e8;
+
+}
 #app {
   display: flex;
   margin: 0 auto;
+    background: #fff;
+    padding: 1.5vw;
+    box-shadow: 0 0 1px 2px rgb(202, 202, 202);
 
   > #siderbar {
     width: 30vw;
@@ -41,6 +50,8 @@ export default {
   }
   > #main {
     width: 70vw;
+    background: #fff;
+    
     box-shadow: 0 0 0 1px rgb(225, 225, 225);
     .project {
       margin-top: 2vw;
