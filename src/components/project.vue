@@ -24,7 +24,7 @@ let projectItemOption = [
   },
   {
     url: require("../assets/cnode.png"),
-    title:'全新UI CNode',
+    title:'重构 CNode',
     intro:
       "该项目使用 Vue 制作 CNode 官方社区<em>全新UI重置版</em>，并做了<em>响应式适配</em>，调用 CNode 官方社区提供的 API，以 <em>Vue CLI</em> 创建项目模版，<em>二次封装 Axios</em> 获取数据，使用 <em>Vue Router</em> 进行前端路由的切换及传参，使用 watch 监听路由的变化，<em>Webpack 打包</em>。",
     stack: "Vue CLI/ Vue2/ Vue Router/ Axios/ ES6/ Npm/ SCSS",

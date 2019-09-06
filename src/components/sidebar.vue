@@ -10,7 +10,7 @@
       </div>
       <div class="primary-item">
         <icon name="internet"></icon>
-        <span>github.com/luckzhu</span>
+        <span><a href="https://github.com/luckzhu/">github.com/luckzhu</a></span>
       </div>
       <div class="primary-item">
         <icon name="email"></icon>
@@ -71,7 +71,7 @@
       </div>
       <div class="contact-item">
         <icon name="github"></icon>
-        <span>访问GitHub</span>
+        <span><a href="https://github.com/luckzhu/">访问GitHub</a></span>
       </div>
     </div>
     <div class="design">
@@ -116,7 +116,6 @@ $deepbar: #b7b8b9;
 }
 .primary-information {
   .primary-item {
- 
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -131,7 +130,9 @@ $deepbar: #b7b8b9;
     &:nth-child(3) {
       background: #009bdf;
     }
-
+     a {
+      color: #fff;
+    }
     > span {
       font-size: 1.2vw;
       margin-left: 1.5vw;
@@ -243,9 +244,8 @@ $deepbar: #b7b8b9;
     }
   }
 }
-.design{
+.design {
   padding: 2vw 2vw;
-  font-size: .9vw;
-
+  font-size: 0.9vw;
 }
 </style>
