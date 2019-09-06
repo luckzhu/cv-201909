@@ -5,7 +5,7 @@
     </div>
     <p class="project-intro">
       <strong>项目简介：</strong>
-      {{ projectOption.intro }}
+      <span v-html="projectOption.intro"></span>
     </p>
     <p class="technology-stack" v-if="projectOption.stack">
       <strong>{{ projectOption.stack }}</strong>
@@ -18,6 +18,7 @@
         ><strong>项目预览：</strong>{{ projectOption.preview }}</a
       >
     </div>
+    <div class="title">{{projectOption.title}}</div>
   </div>
 </template>
 
@@ -50,6 +51,7 @@ export default {
   font-size: 1vw;
   display: flex;
   flex-direction: column;
+  position: relative;
   img {
     width: 100%;
     height: auto;
@@ -59,6 +61,10 @@ export default {
   }
   .project-intro {
     text-align: justify;
+    em {
+      color: #009bdf;
+      font-weight: bold;
+    }
   }
   .technology-stack {
     align-self: center;
@@ -67,6 +73,21 @@ export default {
   .project-code {
     display: flex;
     justify-content: space-between;
+  }
+
+  .title {
+    width: 10vw;
+    height: 3vw;
+    background-color: #009bdf;
+    border-radius: .2vw;
+    color: #fff;
+    font-size: 1.2vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
   }
 }
 </style>
