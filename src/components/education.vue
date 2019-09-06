@@ -34,7 +34,7 @@ export default {};
 .shool-wrapper {
   display: flex;
   padding: 0 1.5vw 0 2.5vw;  
-  font-size: 1vw;
+  font-size: 1.1vw;
   margin-top:1vw;
   h4{
     font-size: 1.1vw;
@@ -48,7 +48,7 @@ export default {};
     align-items: center;
   }
   .major {
-    margin-left: 1vw;
+    margin-left: 3vw;
     display: flex;
     flex-direction: column;
     justify-content: center;

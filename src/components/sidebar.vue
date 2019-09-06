@@ -74,6 +74,9 @@
         <span>访问GitHub</span>
       </div>
     </div>
+    <div class="design">
+      <a href="http://www.freepik.com">Designed by M.salama / Freepik</a>
+    </div>
   </div>
 </template>
 
@@ -105,7 +108,7 @@ $deepbar: #b7b8b9;
 }
 
 .avatar {
- margin-bottom: -4px;
+  margin-bottom: -4px;
   img {
     width: 100%;
     height: auto;
@@ -113,6 +116,7 @@ $deepbar: #b7b8b9;
 }
 .primary-information {
   .primary-item {
+ 
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -238,5 +242,10 @@ $deepbar: #b7b8b9;
       margin: 0 1.2vw;
     }
   }
+}
+.design{
+  padding: 2vw 2vw;
+  font-size: .9vw;
+
 }
 </style>

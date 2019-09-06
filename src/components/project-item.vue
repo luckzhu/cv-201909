@@ -47,7 +47,7 @@ export default {
 <style lang="scss">
 .project-item {
   width: 100%;
-  font-size: .9vw;
+  font-size: 1vw;
   display: flex;
   flex-direction: column;
   img {

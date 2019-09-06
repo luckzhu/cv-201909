@@ -42,17 +42,17 @@ export default {};
 .header-wrapper {
   padding: 2vw 2.5vw;
   > h1 {
-    font-size: 3vw;
+    font-size: 4vw;
     color: #007dc5;
   }
   > h2 {
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: #009bdf;
     margin-bottom: 0.8vw;
   }
   .personal-advantage {
     > p {
-      font-size: 1vw;
+      font-size: 1.2vw;
       margin-top: 0.3vw;
       > i {
         font-size: 1.4vw;
