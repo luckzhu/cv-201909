@@ -1,7 +1,7 @@
 <template>
   <div id="side-bar">
     <div class="avatar">
-      <img src="../assets/My-Picture.png" alt="" />
+      <img src="../assets/My-Picture-2020.jpg" alt="" />
     </div>
     <div class="primary-information">
       <div class="primary-item">

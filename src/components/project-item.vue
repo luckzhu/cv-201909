@@ -1,7 +1,7 @@
 <template>
   <div class="project-item">
     <div class="project-img">
-      <img :src="projectOption.url" alt="" />
+      <img :src="projectOption.url" alt />
     </div>
     <p class="project-intro">
       <strong>项目简介：</strong>
@@ -11,12 +11,14 @@
       <strong>{{ projectOption.stack }}</strong>
     </p>
     <div class="project-code">
-      <a class="sound-code" :href="`https://${projectOption.code}`">
-        <strong>项目源码：</strong>{{ projectOption.code }}</a
-      >
-      <a class="preview" :href="`https://${projectOption.preview}`"
-        ><strong>项目预览：</strong>{{ projectOption.preview }}</a
-      >
+      <a class="sound-code" :href="`http://${projectOption.code}`">
+        <strong>项目源码：</strong>
+        {{ projectOption.code?projectOption.code:'公司项目，暂无源码' }}
+      </a>
+      <a class="preview" :href="`http://${projectOption.preview}`">
+        <strong>项目预览：</strong>
+        {{ projectOption.preview }}
+      </a>
     </div>
     <div class="title">{{projectOption.title}}</div>
   </div>
@@ -79,15 +81,15 @@ export default {
     width: 10vw;
     height: 3vw;
     background-color: #009bdf;
-    border-radius: .2vw;
+    border-radius: 0.2vw;
     color: #fff;
     font-size: 1.2vw;
     position: absolute;
     left: 0;
     top: 0;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 </style>

@@ -3,17 +3,18 @@
     <sidebar id="siderbar"></sidebar>
     <div id="main">
       <mainHeader></mainHeader>
+      <work></work>
       <education></education>
       <project class="project"></project>
       <personal></personal>
     </div>
-    
   </div>
 </template>
 
 <script>
 import sidebar from "./components/sidebar.vue";
 import mainHeader from "./components/main-header.vue";
+import work from "./components/work.vue";
 import education from "./components/education.vue";
 import project from "./components/project.vue";
 import personal from "./components/personal.vue";
@@ -22,6 +23,7 @@ export default {
   components: {
     sidebar,
     mainHeader,
+    work,
     education,
     project,
     personal
@@ -30,18 +32,17 @@ export default {
 </script>
 
 <style lang="scss">
-body{
+body {
   width: 80%;
   margin: 0 auto;
   background: #e6e7e8;
-
 }
 #app {
   display: flex;
   margin: 0 auto;
-    background: #fff;
-    padding: 1.5vw;
-    box-shadow: 0 0 1px 2px rgb(202, 202, 202);
+  background: #fff;
+  padding: 1.5vw;
+  box-shadow: 0 0 1px 2px rgb(202, 202, 202);
 
   > #siderbar {
     width: 30vw;
@@ -51,7 +52,7 @@ body{
   > #main {
     width: 70vw;
     background: #fff;
-    
+
     box-shadow: 0 0 0 1px rgb(225, 225, 225);
     .project {
       margin-top: 2vw;
