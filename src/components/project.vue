@@ -15,7 +15,7 @@ let projectItemOption = [
     url: require("../assets/dashboard.jpg"),
     title: "数据管理后台",
     intro:
-      "基于 vue-element-admin 的基础模板设计开发，实现前端权限控制，根据路由自动生成左侧菜单，iconfont 图标管理，axios 全局请求响应的封装。对常用的table（表格）、form（表单）、upload（上传）、exportExcel（导出excel）等 element-ui 组件进行二次封装，大大提高开发效率。",
+      "基于 vue-element-admin 的基础模板设计开发，实现前端<em>权限控制</em>，根据路由自动生成左侧菜单，<em>iconfont</em> 图标管理，axios <em>全局请求响应的封装</em>。对常用的table（表格）、form（表单）、upload（上传）、exportExcel（导出excel）等 element-ui 组件进行<em>二次封装</em>，大大<em>提高开发效率</em>。",
     stack: "Vue.js/ ElementUi/ ES6/ Vue CLI/ Axios/ Iconfont ",
     preview: "hz.gdclz.org"
   },
@@ -23,7 +23,7 @@ let projectItemOption = [
     url: require("../assets/nj-echarts.jpg"),
     title: "数据可视化",
     intro:
-      "使用 echarts 展示各类数据图形，如柱状图、饼图、省市地图、水滴图和雷达图等。数据变化时图形自动响应变化，全屏切换，两种配色风格模式切换。使用 px2rem， 图形跟随屏幕大小进行自动切换。",
+      "使用 <em>echarts</em> 展示各类数据图形，如柱状图、饼图、省市地图、水滴图和雷达图等。数据变化时图形自动<em>响应变化</em>，全屏切换，两种配色<em>风格模式切换</em>。使用 px2rem， 图形跟随屏幕大小进行<em>自动切换</em>。",
     stack: "Vue CLI/ Vue2/ Echarts/ Axios/ Vue Router/ Vuex/ ES6/ px2rem",
     preview: "hz.gdclz.org/nyjyChart/index.html"
   },
